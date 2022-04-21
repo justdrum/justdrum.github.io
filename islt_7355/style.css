@@ -8,4 +8,12 @@ div {
     text-indent: 50px;
   }
 
+@media (min-width: 350px) {
+p {font-size: 1.25rem;}
+}
 
+@media (min-width: 850px) {
+p {font-size: 1.50rem;
+    line-height: 1.5;}
+
+}
