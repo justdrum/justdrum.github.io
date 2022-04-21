@@ -7,13 +7,50 @@ h1 {color:#336666}
 div {
     text-indent: 50px;
   }
+ 
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "navigation"
+    "photo content1"
+    "footer footer";
+    }
+    
+    .header {
+        grid-area: header;
+        text-size-adjust: 70%;
+    }
+    
+    .navigation {
+        grid-area: navigation;
+        font-size: 150%;
+    }
+    
+    .photo {
+        grid-area: photo;
+    }
+    
+    .content1 {
+        grid-area: content1; 
+        margin-left: 2em;
+        font-size: 18px;
+    }
+    .footer {
+        grid-area: footer;
+        text-align: center;
+        margin: auto;
+
+    }
+    
 
 @media (min-width: 350px) {
-p {font-size: 1.25rem;}
-}
-
-@media (min-width: 850px) {
-p {font-size: 1.50rem;
-    line-height: 1.5;}
-
-}
+    p {font-size: 1.25rem;}
+    }
+    
+    @media (min-width: 850px) {
+    p {font-size: 1.50rem;
+        line-height: 1.5;}
+    }

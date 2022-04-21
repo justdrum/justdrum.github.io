@@ -53,3 +53,13 @@ nav ul li ul li a {
 nav ul li ul li a:hover {
     background-color:#336666;
 }
+
+@media (min-width: 350px) {
+    p {font-size: 1.25rem;}
+    }
+    
+    @media (min-width: 850px) {
+    p {font-size: 1.50rem;
+        line-height: 1.5;}
+    }
+  
