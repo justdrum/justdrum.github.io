@@ -1,5 +1,6 @@
 h1 {color:#336666}
-
+h3 {text-align: center;}
+#first {text-align: center;}
 .element1::first-letter { 
     font-size: 150%;
 }
@@ -10,23 +11,27 @@ div {
  
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 12% 13% 15% 35% 15% 10%;
     grid-template-areas: 
     "header header"
-    "navigation"
-    "photo content1"
+    "navigation navigation"
+    "image image"
+    "content content"
+    "resume video"
     "footer footer";
     }
     
     .header {
         grid-area: header;
-        text-size-adjust: 70%;
+        text-size-adjust: 80%;
     }
     
     .navigation {
         grid-area: navigation;
-        font-size: 150%;
+        font-size: 100%;
+        padding-bottom: 3%;
+        
     }
     
     .photo {
@@ -36,16 +41,22 @@ div {
     .content1 {
         grid-area: content1; 
         margin-left: 2em;
-        font-size: 18px;
+        margin-right: 3em;
+        text-size-adjust: 70%;
+        text-align: justify;
     }
     .footer {
         grid-area: footer;
         text-align: center;
         margin: auto;
+        grid-area: Footer;
+        background-color: #F5F0E5;
+        border: 5px solid #336666;
+        padding: 1%;
+        margin: auto;
 
     }
     
-
 @media (min-width: 350px) {
     p {font-size: 1.25rem;}
     }
