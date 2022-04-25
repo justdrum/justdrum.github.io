@@ -4,7 +4,6 @@ h3 {text-align: center;}
 .element1::first-letter { 
     font-size: 150%;
 }
-
 div {
     text-indent: 50px;
   }
@@ -32,11 +31,13 @@ div {
     .navigation {
         grid-area: navigation;
         font-size: 100%;
-        padding-bottom: 3%;
+        padding-bottom: 10%;
     }
     
     .photo {
         grid-area: photo;
+        text-align: center;
+        padding-top: 10%;
     }
     
     .content1 {
@@ -86,7 +87,7 @@ nav a {
     display: inline-block;
     border: 3px solid #336666;
     padding: 15px 15px 15px 15px;
-    width: 125px; 
+    width: 100px; 
     margin: 2px;
 }
 
@@ -94,7 +95,7 @@ nav a:link{
     background-color: none;
 }
 nav a:hover, nav a:focus {
-    background-color: none;
+    background-color: #a9540A;
 }
 nav a:active{
     background-color: #A9540A;
