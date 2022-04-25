@@ -1,7 +1,7 @@
 /* Color, size and location of all parts of the navigation*/
 nav {
-    width: 100%;
-    height: 50px;
+    width: 150%;
+    height: 60px;
     background-color: #336666;
    }
 
@@ -17,6 +17,7 @@ nav ul li {
 /* Changes color when hovering*/
 nav a:hover {
     background-color:#A9540A;
+    padding: 5px;
 }
 
 nav ul li a{
@@ -33,7 +34,7 @@ nav ul li ul{
     display: none;
     position: absolute;
     background-color: hsl(28, 89%, 35%);
-    padding: 0px; 
+    padding: 15px; 
     border-radius: 0px 0px 4px 4px;
 }
 /* to show dropsdown when hovering*/
