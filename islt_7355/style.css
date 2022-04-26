@@ -34,13 +34,13 @@ div {
     .navigation {
         grid-area: navigation;
         font-size: 100%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
     }
     
     .photo {
         grid-area: photo;
         text-align: center;
-        padding-top: 5%;
+        padding-top: 3%;
     }
     
     .content1 {

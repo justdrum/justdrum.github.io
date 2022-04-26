@@ -6,7 +6,7 @@ nav {
    }
 
    nav ul  {
-    float:left;
+    float: left;
     }
 
 nav ul li {
@@ -92,7 +92,7 @@ nav a {
     display: inline-block;
     border: 3px solid #336666;
     padding: 15px 15px 15px 15px;
-    width: 100px; 
+    width: 100%; 
     margin: 2px;
 }
 
@@ -163,7 +163,7 @@ nav a {
     border-top: none;
     border-bottom: none;
     padding: 15px 0px 15px 35px;
-    width: 240px;
+    width: 100%;
     margin-bottom: 2px;
 }
 nav .lastMobile {border-bottom: 3px dotted #336666;}
