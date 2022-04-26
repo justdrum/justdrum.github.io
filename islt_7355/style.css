@@ -7,13 +7,16 @@ h3 {text-align: center;}
 div {
     text-indent: 50px;
   }
+.quote {
+    font-family: "Bebas Neue", cursive;
+}
  
   /*wireframe layout*/
 
   .grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 12% 20% 10% 35% 13% 10%;
+    grid-template-rows: 12% 23% 10% 35% 13% 7%;
     grid-template-areas: 
     "header header"
     "navigation navigation"
@@ -53,8 +56,8 @@ div {
         margin: auto;
         grid-area: Footer;
         background-color: #F5F0E5;
-        border: 5px solid #336666;
-        padding: 1%;
+        border: 3px solid #336666;
+        padding: .5%;
         margin: auto;
     }
 
@@ -183,4 +186,28 @@ nav .lastMobile {border-bottom: 3px dotted #336666;}
     p {font-size: 1.50rem;
         line-height: 1.5;}
     }
-    
+
+/* Print Stylesheet*/
+
+@media print {
+    .navigation,
+    .photo
+    {
+        display: none;
+    }
+    body {font-family: serif;
+        font-size: 6pt;
+    }
+    main {
+        font-size: 6pt;
+    }
+    p {
+        font-size: 6pt;
+    }
+    h3 {
+        font-size: 10pt;
+    }
+}
+@page {
+    margin:  2cm 2cm 2cm 2cm;
+}
