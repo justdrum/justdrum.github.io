@@ -1,5 +1,8 @@
 footer {
     background-image: url("images/footerbackground.jpg");
+    background-repeat: none;
+    background-size: cover;
+
 
 }
 h1 {color:#336666}
