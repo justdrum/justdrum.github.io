@@ -11,8 +11,8 @@ nav {
 
 nav ul li {
     float: left;
-    list-style:none;
-    position: relative;
+    list-style: none;
+    
 }
 /* Changes color when hovering*/
 nav a:hover {
@@ -26,7 +26,7 @@ nav ul li a{
     font-weight: bold;
     color: #FCFCFC;
     font-size: 20px;
-    padding: 0px 10px 10px 15px;
+    padding: 10px 10px 10px 10px;
     text-decoration: none;
 }
 /* dropdown styling*/
@@ -112,7 +112,7 @@ nav ul>li ul {
     display: none;
 }
 nav ul ul li {
-    float:none;
+    float: none;
 }
 
 nav>ul>li:hover>ul{
