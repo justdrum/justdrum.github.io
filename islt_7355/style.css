@@ -56,6 +56,24 @@ div {
         text-align: center;
         padding-top: 3%;
     }
+    .resume {
+        grid-area: resume;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 175px;
+    }
+
+    .video {
+        grid-area: video;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 175px;
+        padding-bottom: 25px;
+        width: 200;
+        height: 200;
+    }
     
     .content1 {
         grid-area: content1; 
