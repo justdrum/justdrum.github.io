@@ -17,6 +17,7 @@ nav ul li {
 /* Changes color when hovering*/
 nav a:hover {
     background-color:#A9540A;
+    background-color: none;
     padding: 5px;
 }
 
