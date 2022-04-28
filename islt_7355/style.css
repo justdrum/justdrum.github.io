@@ -2,9 +2,16 @@ footer {
     background-image: url("./Images/footerbackground.jpg");
     background-repeat: none;
     background-size: cover;
-
-
 }
+.thumbnail:hover {
+    transform: scale(2.1);
+    transition: 200ms linear;
+}
+.thumbnail2:hover {
+    transform: scale(2.1);
+    transition: 200ms linear;
+}
+
 h1 {color:#336666}
 h3 {text-align: center;}
 #first {text-align: center;}
