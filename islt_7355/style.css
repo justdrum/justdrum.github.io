@@ -13,6 +13,7 @@ footer {
 }
 
 h1 {color:#336666}
+h2 {color:#336666}
 h3 {text-align: center;}
 #first {text-align: center;}
 .element1::first-letter { 
@@ -25,6 +26,10 @@ div {
     font-family: "Bebas Neue", cursive;
 }
  
+#id-project1
+#id-project2
+#id-project3
+
   /*wireframe layout*/
 
   .grid {
@@ -71,8 +76,6 @@ div {
         align-items: flex-end;
         padding-right: 175px;
         padding-bottom: 25px;
-        width: 200;
-        height: 200;
     }
     
     .content1 {
@@ -133,3 +136,4 @@ div {
 @page {
     margin:  2cm 2cm 2cm 2cm;
 }
+

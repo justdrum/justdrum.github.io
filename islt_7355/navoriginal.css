@@ -17,7 +17,7 @@ nav ul li {
 /* Changes color when hovering*/
 nav a:hover {
     background-color:#A9540A;
-    padding: 5px;
+    padding: 10px;
 }
 
 nav ul li a{
@@ -63,4 +63,12 @@ nav ul li ul li a:hover {
     p {font-size: 1.50rem;
         line-height: 1.5;}
     }
-  
+    @media only screen and (max-width: 640px) {
+        header {
+            position: relative;
+            height: 40px;
+            display: block;
+            background-color: #336666;
+            width: 100%; 
+        }
+    }
