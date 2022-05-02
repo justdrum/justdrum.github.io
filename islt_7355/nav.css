@@ -6,19 +6,18 @@ nav {
    }
 
    nav ul  {
-    float: left;
+    float:left;
     }
 
 nav ul li {
     float: left;
-    list-style: none;
-    
+    list-style:none;
+    position: relative;
 }
 /* Changes color when hovering*/
 nav a:hover {
-    background-color:#A9540A;
     background-color: none;
-    padding: 5px;
+    padding: 10px;
 }
 
 nav ul li a{
@@ -27,16 +26,16 @@ nav ul li a{
     font-weight: bold;
     color: #FCFCFC;
     font-size: 20px;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 10px 10px 15px;
     text-decoration: none;
 }
 /* dropdown styling*/
 nav ul li ul{
     display: none;
     position: absolute;
-    background-color: hsl(28, 89%, 35%);
-    padding: 15px; 
-    border-radius: 0px 0px 4px 4px;
+    background-color: #336666;
+    padding: 0px; 
+    border-radius: 0px 0px 0px 0px;
 }
 /* to show dropsdown when hovering*/
 nav ul li:hover ul{
@@ -46,10 +45,10 @@ nav ul li:hover ul{
 nav ul li ul li {
     width: 100px;
     text-align: center;
-    border-radius: 4px;      
+    border-radius: 0px;      
 }
 nav ul li ul li a {
-    padding: 0px 12px;
+    padding: 0px 0px;
 }
 
 nav ul li ul li a:hover {
@@ -64,115 +63,12 @@ nav ul li ul li a:hover {
     p {font-size: 1.50rem;
         line-height: 1.5;}
     }
-
-        /*mobile navigation layout*/
-
-.active a:link {
-    background-color: none;
-}
-#hamburger {
-    display: none;
-}
-
-nav {
-    top: 0px;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav>ul li {
-    position: relative; 
-    text-align: center;
-    font-weight: bold;
-    color:#336666;
-    float: left;
-}
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    border: 3px solid #336666;
-    padding: 15px 15px 15px 15px;
-    width: 100%; 
-    margin: 2px;
-}
-
-nav a:link{
-    background-color: none;
-}
-nav a:hover, nav a:focus {
-    background-color: #a9540A;
-}
-nav a:active{
-    background-color: #A9540A;
-}
-
-nav ul>li ul {
-    position: absolute;
-    top: 100%;
-    display: none;
-}
-nav ul ul li {
-    float: none;
-}
-
-nav>ul>li:hover>ul{
-    display: block;
-}
-@media only screen and (max-width: 640px) {
-	header {
-		position: relative;
-        height: 40px;
-        display: block;
-        background-color: #336666;
-        width: 100%; 
-	}
-	#hamburger {
-		display: inline-block;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        width: 26px;
-        float: none;
-        font-size: 2em;
-	}
-  nav ul, nav:active ul {
-		display: none;
-		position: absolute;
-		padding: 20px 20px 20px 0px;
-		top: 20px;
-			}
-	nav:hover ul {
-		display: block;
-	}
-    	nav:hover #mobileHide {
-		display: none;
-	}
-	nav li {
-		text-align: center;
-		padding: 0;
-		margin: 0;
-	}
-    nav>ul li {
-    text-align: left;
-    font-weight: bold;
-    color: #336666;
-    float: left;
-}
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    border-top: none;
-    border-bottom: none;
-    padding: 15px 0px 15px 35px;
-    width: 100%;
-    margin-bottom: 2px;
-}
-nav .lastMobile {border-bottom: 3px dotted #336666;}
-    nav ul li ul {
-        display:none;
+    @media only screen and (max-width: 640px) {
+        header {
+            position: relative;
+            height: 40px;
+            display: block;
+            background-color: #336666;
+            width: 100%; 
+        }
     }
-}
-#toggle {
-    display: none;
-}
