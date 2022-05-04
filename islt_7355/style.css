@@ -30,6 +30,7 @@ div {
 #id-project2
 #id-project3
 
+
   /*wireframe layout*/
 
   .grid {
@@ -249,3 +250,33 @@ div {
             display: none;
         }
         
+        /*table style*/
+
+table {
+    border-collapse: collapse;
+}
+
+table thead {
+    text-align: left;
+    background-color: #336666;
+    color: #F5F0E5;
+    padding: 4px 30px 4px 8px;
+}
+table td {
+    border: 1px solid #336666;
+    padding: 4px 8px;
+}
+tbody tr:nth-child(odd) {
+    background-color: #F5F0E5;
+}
+
+@media only screen and (max-width:640px) {
+    tr {
+        font-size: 12px;
+    }
+    table {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
