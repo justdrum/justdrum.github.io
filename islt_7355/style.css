@@ -306,19 +306,15 @@ input[name=first] {
     color: #336666;
   }
 
-  input[name=message] {
-    width: 25%;
+  textarea{
+    width: 30%;
     padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     color: #336666;
   }
-
-  input[type=send] {
-    width: 25%;
-    padding: 5px 5px;
-    margin: 8px 0;
-    box-sizing: border-box;
+  button {
+      width: 5%;
   }
 
   @media only screen and (max-width:640px) {
