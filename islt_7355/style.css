@@ -280,3 +280,52 @@ tbody tr:nth-child(odd) {
         margin-right: 25%;
     }
 }
+/*Contact style*/
+
+input[name=first] {
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #336666;
+  }
+
+  input[name=last] {
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #336666;
+  }
+
+  input[name=email] {
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #336666;
+  }
+
+  input[name=message] {
+    width: 25%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #336666;
+  }
+
+  input[type=send] {
+    width: 25%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width:640px) {
+      form {
+        font-size: 12px;
+        width: 75%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+  }
