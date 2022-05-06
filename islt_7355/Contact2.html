@@ -46,29 +46,22 @@
             </div>
             <div class="content1">
                 <main>
-                    <h2>Contact Me!</h2>
-                    <Form action="mailto:jhwgc@missouri.edu?Subject=Portfolio/Professional%20Website%20Contact" method="post">
-                        <fieldset>
-                        <div>
-                            <label for="first">First Name</label>
-                            <input type="text" name="first" id="first" required>
-                        </div>
-                        <div>
-                            <label for="last">Last Name</label>
-                            <input type="text" name="last" id="last" required>
-                        </div>
-                        <div>
-                            <label for="email">E-mail</label>
-                            <input type="text" name="email" id="email" required>
-                            <div>
-                                <label for="message">Message</Label>
-                                 <textarea type="text" name="message" id="message" required></textarea>
-                            </div>
-                            <button type="submit">Submit</button>
-                            <button type="reset">Reset</button>
-                        </div>
-                        </fieldset>
-                        </Form>
+                    <h2>Send e-mail to Justin Hagerman</h2>
+                          <fieldset>         
+<form action="mailto:jhwgc@missouri.edu?Subject=Portfolio/Professional%20Website%20Contact" method="post" enctype="text/plain">
+
+First Name:<br>
+<input type="text" name="first" required><br>
+Last Name:<br>
+<input type="text" name="last" required><br>
+E-mail:<br>
+<input type="text" name="mail" required size="50"><br>
+Message:<br>
+<textarea type="text" name="message" required size="50"> </textarea><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+                          </fieldset>
                     </main>
             </div>
                     <footer class="footer">
