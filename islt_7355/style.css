@@ -1,6 +1,5 @@
 footer {
     background-image: url("./Images/footerbackground.jpg");
-    background-repeat: none;
     background-size: cover;
 }
 .thumbnail:hover {
@@ -141,7 +140,7 @@ div {
         /*mobile navigation layout*/
 
         .active a:link {
-            background-color: none;
+            background-color: #336666;
         }
         #hamburger {
             display: none;
@@ -159,7 +158,7 @@ div {
             position: relative; 
             text-align: center;
             font-weight: bold;
-            color:#336666;
+            color: #336666;
             float: left;
         }
         nav a {
@@ -172,26 +171,26 @@ div {
         }
         
         nav a:link{
-            background-color: none;
+            background-color: #336666;
         }
         nav a:hover, nav a:focus {
-            background-color: none;
+            background-color: #336666;
         }
         nav a:active{
-            background-color: none;
+            background-color: #336666;
         }
         
         nav ul>li ul {
             position: absolute;
             top: 100%;
-            display: none;
+            display: block;
         }
         nav ul ul li {
             float: none;
         }
         
         nav>ul>li:hover>ul{
-            display: block;
+            display: none;
         }
         @media only screen and (max-width: 640px) {
             header {
@@ -320,7 +319,7 @@ input[name=first] {
   }
   button {
       width: 5%;
-      padding: auto;
+      padding: 0px;
   }
 
   @media only screen and (max-width:640px) {

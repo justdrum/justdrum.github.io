@@ -16,7 +16,6 @@ nav ul li {
 }
 /* Changes color when hovering*/
 nav a:hover {
-    background-color: none;
     padding: 10px;
 }
 
@@ -34,8 +33,8 @@ nav ul li ul{
     display: none;
     position: absolute;
     background-color: #336666;
-    padding: 0px; 
-    border-radius: 0px 0px 0px 0px;
+    padding: 8px; 
+    border-radius: 0px 0px;
 }
 /* to show dropsdown when hovering*/
 nav ul li:hover ul{
@@ -43,16 +42,16 @@ nav ul li:hover ul{
 }
 
 nav ul li ul li {
-    width: 100px;
+    width: 150px;
     text-align: center;
-    border-radius: 0px;      
+    border-radius: 2px;      
 }
 nav ul li ul li a {
     padding: 0px 0px;
 }
 
 nav ul li ul li a:hover {
-    background-color:#336666;
+    background-color: #336666;
 }
 
 @media (min-width: 350px) {
